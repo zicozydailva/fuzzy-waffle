@@ -23,3 +23,19 @@ print(f"Hello, {name}!")  # f-string method
 is_student = True # boolean
 print("Are you a student? " + str(is_student)) # concatenation method
 print(f"Are you a student? {is_student}")  # f-string method    
+
+
+# muliple assignment
+x,y,z = 1,2,3
+print(x)
+print(y)
+print(z)
+
+# function decl
+
+def happy_birthday():
+    print("Happy birthday to you!")
+    print("How old are you now!")
+    print("Happy birthday to you!")
+    
+happy_birthday()
