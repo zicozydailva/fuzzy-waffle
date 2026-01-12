@@ -14,3 +14,12 @@ print(f"You're {age} years old")  # f-string method
 height = 5.9 # float
 print(f"Your height is {height} feet")  # f-string method
 
+# string
+name = "John" # string
+print("Hello, " + name + "!") # concatenation method
+print(f"Hello, {name}!")  # f-string method
+
+# boolean
+is_student = True # boolean
+print("Are you a student? " + str(is_student)) # concatenation method
+print(f"Are you a student? {is_student}")  # f-string method    
