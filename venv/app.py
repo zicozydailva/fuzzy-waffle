@@ -33,9 +33,16 @@ print(z)
 
 # function decl
 
-def happy_birthday():
-    print("Happy birthday to you!")
-    print("How old are you now!")
-    print("Happy birthday to you!")
-    
-happy_birthday()
+def happy_birthday(name, age):
+    print(f"Happy birthday to you, {name}!")
+    print(f"You're {age} years old!")
+    print(f"Happy birthday to you, {name}!")
+
+happy_birthday("John", 21)
+
+# func with return statement
+def add(num1, num2):
+    z = num1 + num2
+    return z
+
+print(add(10, 12))
